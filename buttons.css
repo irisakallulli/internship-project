@@ -1,0 +1,19 @@
+/* Improved button styles with blue theme */
+.button {
+    background-color: #0056b3; /* Button color */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+.button:hover {
+    background-color: #34df3c; /* Darker blue on hover */
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+

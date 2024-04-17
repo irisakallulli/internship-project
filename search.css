@@ -1,0 +1,16 @@
+.search-container {
+    display: flex; /* Use flexbox to align items in a row */
+    justify-content: space-between; /* Optional: Adjusts the spacing between items */
+    align-items: center; /* Aligns items vertically in the center */
+}
+
+.search-box {
+    flex-grow: 1; /* Allows the search box to grow and fill available space */
+    margin-right: 10px; /* Adds some space between the search box and the button */
+}
+.search-button {
+     /* Sets the background color of the button to blue */
+    color: white;
+    height: 35px;
+     /* Optional: Changes the text color to white for better visibility */
+}

@@ -1,0 +1,44 @@
+
+@media (max-width: 768px) {
+/* Center the carousel images */
+.glide__slides {
+    display: flex;
+    
+
+}
+}
+
+
+.glide__slide {
+    width: 200px; /* Adjust width as needed */
+    margin-top: 70px;
+    margin-left: 220px; /* Adjust margin between slides */
+    
+}
+
+/* Add arrow styles to Glide navigation buttons */
+.glide__arrow {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    padding: 0;
+    font-size: 30px; /* Increase font size for thicker arrows */
+    color: #333; 
+    transition: color 0.3s ease;
+}
+
+.glide__arrow--left {
+    left: 120px;
+}
+
+.glide__arrow--right {
+    right: 120px;
+}
+
+.glide__arrow:hover {
+    color: #007bff; /* Change color on hover */
+}

@@ -1,0 +1,58 @@
+/* Header styles */
+
+.site-header {
+    background-color: #0f56a3;
+    padding: 10px 20px; /* Increase padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img {
+  
+    /* Logo width */
+
+    border-radius: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .main-navigation {
+        flex-direction: column;
+        display: none; /* Hide by default, show via JS toggle */
+    }
+    /* Add styles for a toggle button */
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: #fffcfc;
+    margin-left: 10px; /* Adjust margin */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.main-navigation a:hover {
+    background-color: green; /* Correct hover effect */
+}
+
+
+.user-dropdown {
+    margin-left: 0px; 
+    margin-bottom: 5px;
+
+    padding: 20px;
+}
+
+.navbar-toggler {
+    margin-left: 100px; /* Adjust margin for mobile view */
+}
+.nav-item a {
+    border-radius: 3%; 
+    font-size: larger;/* Make the background round */
+
+    
+}
+
+
